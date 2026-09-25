@@ -5,6 +5,8 @@ int main() {
     int choice;
     double distance, fare;
 
+    cout << "Welcome! Let's calculate your Grab ride fare." << endl;
+    cout << endl;
     cout << "1. JustGrab" << endl;
     cout << "2. GrabCar" << endl;
     cout << "3. GrabPremium" << endl;
