@@ -14,7 +14,18 @@ int main() {
     cout << "Enter distance (km): ";
     cin >> distance;
 
-    fare = 3.0 + (1.2 * distance);   // temporary - only JustGrab for now
+    if (choice == 1) {
+        fare = 3.0 + (1.2 * distance);   // JustGrab
+    }
+    else if (choice == 2) {
+        fare = 4.5 + (1.5 * distance);   // GrabCar
+    }
+    else if (choice == 3) {
+        fare = 7.0 + (2.2 * distance);   // GrabPremium
+    }
+    else {
+        fare = 0;
+    }
 
     cout << "Estimated fare: RM " << fare << endl;
 
