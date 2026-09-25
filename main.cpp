@@ -26,7 +26,8 @@ int main() {
         fare = 7.0 + (2.2 * distance);   // GrabPremium
     }
     else {
-        fare = 0;
+        cout << "Invalid choice!" << endl;
+        return 1;
     }
 
     cout << "Estimated fare: RM " << fare << endl;
